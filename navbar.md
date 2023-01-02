@@ -1,14 +1,3 @@
-<!--
-Copyright 2016 PDFium Authors. All rights reserved.
-Use of this source code is governed by a BSD-style license that can be
-found in the LICENSE file.
--->
-
-# PDFium
-
-* [Home](/README.md)
-* [Getting Started](/docs/getting-started.md)
-* [V8 Getting Started](/docs/v8-getting-started.md)
-* [SafetyNet](/docs/safetynet.md)
-
-[home]: /README.md
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd6c93bdfc9e1149c31b6a34f7d5066171284fa31831c83ec10fccba5cdf1f64
+size 343

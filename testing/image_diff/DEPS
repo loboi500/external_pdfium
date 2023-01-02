@@ -1,5 +1,3 @@
-include_rules = [
-  '+third_party/libpng16',
-  '+third_party/zlib',
-]
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:bddf57d0e9ec468e72118032047e32c8b8b215f938734af13d3d1a83be85a9bd
+size 71

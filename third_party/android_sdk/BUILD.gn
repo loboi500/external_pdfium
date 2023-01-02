@@ -1,29 +1,3 @@
-# Copyright 2019 The Chromium Authors. All rights reserved.
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-import("//build/config/android/rules.gni")
-
-config("cpu_features_include") {
-  include_dirs = [ "$android_ndk_root/sources/android/cpufeatures" ]
-}
-
-config("cpu_features_warnings") {
-  if (is_clang) {
-    # cpu-features.c has few unused functions on x86 b/26403333
-    cflags = [ "-Wno-unused-function" ]
-  }
-}
-
-source_set("cpu_features") {
-  sources = [ "$android_ndk_root/sources/android/cpufeatures/cpu-features.c" ]
-  public_configs = [ ":cpu_features_include" ]
-
-  configs -= [ "//build/config/compiler:chromium_code" ]
-  configs += [
-    "//build/config/compiler:no_chromium_code",
-
-    # Must be after no_chromium_code for warning flags to be ordered correctly.
-    ":cpu_features_warnings",
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:45fea4a3faf412ca8ea95c3b6c38cb8e80bd9634add121bb60ee509505dc3e6e
+size 868

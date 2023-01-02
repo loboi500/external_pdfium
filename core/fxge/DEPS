@@ -1,3 +1,3 @@
-include_rules = [
-  '+third_party/skia/include'
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:87a86e281a25d45cf15a796608f8ab8bf0032fdc962a13ad759bacfef5ee5733
+size 50

@@ -1,23 +1,3 @@
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_pdfium_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-BSD
-    default_applicable_licenses: ["external_pdfium_license"],
-}
-
-cc_library_static {
-    name: "libpdfium-cmaps",
-    defaults: ["pdfium-core"],
-
-    visibility: ["//external/pdfium:__subpackages__"],
-
-    static_libs: [
-        "libpdfium-fxcrt",
-    ],
-
-    srcs: [
-        "**/*.cpp",
-    ],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a2a54ae5f86e3a91ac9076cf8a7fd2d1d9c943e4f34e089bac8015a893a7f41
+size 564

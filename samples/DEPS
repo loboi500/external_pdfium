@@ -1,6 +1,3 @@
-include_rules = [
-  '+core/fxcrt',
-  '+public',
-  '+third_party/skia/include',
-  '+v8',
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d60fc99b4f7a6433860d1e5047532bdf8f4d184d3f86614a6a32243a465bc4f
+size 90

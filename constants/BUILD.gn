@@ -1,17 +1,3 @@
-# Copyright 2018 The PDFium Authors. All rights reserved.
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-import("../pdfium.gni")
-
-source_set("constants") {
-  sources = [
-    "annotation_common.h",
-    "annotation_flags.h",
-    "form_fields.h",
-    "form_flags.h",
-    "page_object.h",
-    "stream_dict_common.h",
-    "transparency.h",
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8ea50f583f00a5f0350701f29664b99313a4c8083035933d9765596a8346603
+size 397
